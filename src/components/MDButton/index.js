@@ -4,7 +4,7 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
+* Copyright 2021 Nha Dep Thach That (https://www.creative-tim.com)
 
 Coded by www.creative-tim.com
 
@@ -14,13 +14,10 @@ Coded by www.creative-tim.com
 */
 
 import { forwardRef } from "react";
-
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
-
 // Custom styles for MDButton
 import MDButtonRoot from "components/MDButton/MDButtonRoot";
-
 // Material Dashboard 2 React contexts
 import { useMaterialUIController } from "context";
 
@@ -43,7 +40,6 @@ const MDButton = forwardRef(
     );
   }
 );
-
 // Setting default values for the props of MDButton
 MDButton.defaultProps = {
   size: "medium",
@@ -52,7 +48,6 @@ MDButton.defaultProps = {
   circular: false,
   iconOnly: false,
 };
-
 // Typechecking props for the MDButton
 MDButton.propTypes = {
   size: PropTypes.oneOf(["small", "medium", "large"]),
